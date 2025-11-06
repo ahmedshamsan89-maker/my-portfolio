@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio — Ahmed Al-Hammadi</title>
+    <meta
+      name="description"
+      content="Personal portfolio showcasing projects, skills, and contact information. Replace placeholder content with your own." />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="My Portfolio — Your Name" />
+    <meta
+      property="og:description"
+      content="Personal portfolio showcasing projects, skills, and contact information." />
+    <meta property="og:image" content="assets/img/og-image.svg" />
+    <!-- TODO: Replace with your cover image -->
+    <meta property="og:url" content="https://example.com" />
+    <!-- TODO: Replace with your site URL -->
+    <meta property="og:type" content="website" />
+
+    <!-- Preconnects and fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- Bootstrap 5 CSS (CDN) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Favicon (optional) -->
+    <!-- <link rel="icon" href="assets/img/favicon.ico"> -->
+  </head>
+  <body>
+    <!-- Fixed Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-primary" href="#home">Ahmed</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMain"
+          aria-controls="navMain"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMain">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="pt-5">
+      <!-- Hero -->
+      <section id="home" class="py-5" style="background-color: #f8fafc">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-7">
+              <h1 class="display-5 fw-bold text-dark">I'm Ahmed Al-Hammadi</h1>
+              <p class="lead text-secondary mb-4">
+                MERN Stack developer | Python & Machine Learning enthusiast.
+              </p>
+              <div class="d-flex gap-2">
+                <a class="btn btn-primary btn-lg" href="#projects"
+                  >View Projects</a
+                >
+                <a class="btn btn-outline-secondary btn-lg" href="#contact"
+                  >Contact Me</a
+                >
+              </div>
+            </div>
+            <div
+              class="col-lg-5 d-none d-lg-flex justify-content-center myphoto">
+              <div class="avatar shadow-sm rounded-circle overflow-hidden">
+                <img
+                  src="assets/img/Myphoto.jpg"
+                  alt="my photo"
+                  class="img-fluid"
+                  loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="py-5">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-8">
+              <h2 class="h3 fw-bold text-dark">About Me</h2>
+              <p class="text-secondary">
+                a MERN Stack developer who enjoys building full-stack web
+                applications and exploring data through Python and Machine
+                Learning. I focus on writing clean, efficient code and creating
+                projects that combine web development with smart, data-driven
+                functionality
+              </p>
+              <ul class="list-unstyled text-secondary mb-0">
+                <li>
+                  • Focus: MERN Stack, Python, Machine Learning & AI Agents
+                </li>
+                <li>• Location: YEMEN, Marib</li>
+                <li>
+                  • Availability: Freelance / Full-time / Open to opportunities
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="py-5" style="background-color: #f8fafc">
+        <div class="container">
+          <h2 class="h3 fw-bold text-dark mb-4">Skills</h2>
+
+          <div class="row g-2 mt-3">
+            <div class="col-auto">
+              <span
+                class="badge skill-badge"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="Markup and semantics"
+                >HTML</span
+              >
+            </div>
+            <div class="col-auto">
+              <span
+                class="badge skill-badge"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="Styling and responsive layout"
+                >CSS</span
+              >
+            </div>
+            <div class="col-auto">
+              <span
+                class="badge skill-badge"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="High-level programming language"
+                >JavaScript</span
+              >
+            </div>
+            <div class="col-auto">
+              <span
+                class="badge skill-badge"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="JavaScript library for building user interfaces"
+                >React.js / Node.js</span
+              >
+            </div>
+            <div class="col-auto">
+              <span
+                class="badge skill-badge"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="Relational and non-relational databases"
+                >Databases</span
+              >
+            </div>
+            <div class="col-auto">
+              <span
+                class="badge skill-badge"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="High-level programming language"
+                >Python</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="py-5">
+        <div class="container">
+          <h2 class="h3 fw-bold text-dark mb-4">Projects</h2>
+          <p class="text-secondary">
+            A selection of projects. Click through to view live demos or source
+            code.
+          </p>
+
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
+            <!-- Project card (repeat) -->
+            <div class="col">
+              <article class="card h-100 shadow-sm project-card">
+                <div class="ratio ratio-16x9">
+                  <img
+                    src="assets/img/portfolio.png"
+                    class="card-img-top object-fit-contain"
+                    alt="Screenshot of Project One"
+                    loading="lazy" />
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h3 class="h5 card-title">Responsive Portfolio</h3>
+                  <p class="card-text text-secondary mb-2">
+                    Practice project for building a personal page using HTML,
+                    CSS, and Bootstrap.
+                  </p>
+                  <div class="mb-3">
+                    <span class="badge bg-light text-secondary me-1">HTML</span>
+                    <span class="badge bg-light text-secondary me-1">CSS</span>
+                    <span class="badge bg-light text-secondary">Bootstrap</span>
+                  </div>
+                  <div class="mt-auto d-flex gap-2">
+                    <a
+                      href="#"
+                      class="btn btn-outline-primary btn-sm"
+                      aria-label="Live demo for Project One"
+                      >Live Demo</a
+                    >
+                    <!-- TODO: Replace href -->
+                    <a
+                      href="#"
+                      class="btn btn-primary btn-sm"
+                      aria-label="Source code for Project One"
+                      >Code</a
+                    >
+                    <!-- TODO: Replace href -->
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col">
+              <article class="card h-100 shadow-sm project-card">
+                <div class="ratio ratio-16x9">
+                  <img
+                    src="assets/img/smart to-do app.png"
+                    class="card-img-top object-fit-cover"
+                    alt="Screenshot of Project Two"
+                    loading="lazy" />
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h3 class="h5 card-title">Simple To-Do App</h3>
+                  <p class="card-text text-secondary mb-2">
+                    First experiment with React state management.
+                  </p>
+                  <div class="mb-3">
+                    <span class="badge bg-light text-secondary me-1"
+                      >React</span
+                    >
+                    <span class="badge bg-light text-secondary"
+                      >JavaScript</span
+                    >
+                  </div>
+                  <div class="mt-auto d-flex gap-2">
+                    <!-- <a href="#" class="btn btn-outline-primary btn-sm">Live Demo</a>
+										<a href="#" class="btn btn-primary btn-sm">Code</a> -->
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col">
+              <article class="card h-100 shadow-sm project-card">
+                <div class="ratio ratio-16x9">
+                  <img
+                    src="assets/img/project3.svg"
+                    class="card-img-top object-fit-cover"
+                    alt="Screenshot of Project Three"
+                    loading="lazy" />
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h3 class="h5 card-title">Project Three</h3>
+                  <p class="card-text text-secondary mb-2"></p>
+                  <div class="mb-3">
+                    <!-- <span class="badge bg-light text-secondary me-1">Design</span>
+										<span class="badge bg-light text-secondary">Prototype</span>
+									</div>
+									<div class="mt-auto d-flex gap-2">
+										<a href="#" class="btn btn-outline-primary btn-sm">Live Demo</a>
+										<a href="#" class="btn btn-primary btn-sm">Code</a> -->
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="py-5" style="background-color: #f8fafc">
+        <div class="container">
+          <h2 class="h3 fw-bold text-dark mb-4">Contact</h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <form class="needs-validation" novalidate action="#" method="get">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    required />
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    required />
+                  <div class="invalid-feedback">
+                    Please enter a valid email.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required></textarea>
+                  <div class="invalid-feedback">Please enter a message.</div>
+                </div>
+                <button class="btn btn-primary" type="submit">
+                  Send Message
+                </button>
+                <p class="text-muted mt-2 small">
+                  <!-- TODO: Wire up with form backend or service -->
+                </p>
+              </form>
+            </div>
+            <div class="col-lg-6">
+              <h3 class="h5 text-dark fw-bold">Social</h3>
+              <p class="text-secondary">
+                Connect with me on social media or view my resume.
+              </p>
+              <div class="d-flex gap-2">
+                <a
+                  class="btn btn-outline-secondary"
+                  href="https://github.com/ahmedshamsan89-maker"
+                  aria-label="GitHub link"
+                  >GitHub</a
+                >
+                <!-- TODO: Replace href -->
+                <a
+                  class="btn btn-outline-secondary"
+                  href="https://www.linkedin.com/in/ahmed-7ammadi"
+                  aria-label="LinkedIn link"
+                  >LinkedIn</a
+                >
+                <!-- TODO: Replace href -->
+                <a
+                  class="btn btn-outline-secondary"
+                  href="https://wa.me/+967772010998"
+                  aria-label="Whatsapp link"
+                  >Whatsapp</a
+                >
+                <!-- TODO: Replace href -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-white border-top">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class="small text-secondary">
+          &copy; <span id="year">2025</span> Ahmed Al-Hammadi
+        </div>
+        <div>
+          <a class="text-secondary me-3" href="#about">About</a>
+          <a class="text-secondary me-3" href="#projects">Projects</a>
+          <a class="text-secondary" href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Small inline scripts: tooltips, year, form validation -->
+    <script>
+      // Initialize Bootstrap tooltips
+      document.addEventListener("DOMContentLoaded", function () {
+        var tooltipTriggerList = [].slice.call(
+          document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        );
+        tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+
+        // Set current year in footer
+        var yearEl = document.getElementById("year");
+        if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+        // Bootstrap form validation
+        var forms = document.querySelectorAll(".needs-validation");
+        Array.prototype.slice.call(forms).forEach(function (form) {
+          form.addEventListener(
+            "submit",
+            function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add("was-validated");
+            },
+            false
+          );
+        });
+      });
+    </script>
+  </body>
+</html>
